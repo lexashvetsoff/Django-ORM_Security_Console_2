@@ -19,6 +19,8 @@ DB_URL=postgres://USER:PASSWORD@HOST:PORT/NAME
 SECRET_KEY=секретный ключ сайта
 
 DEBUG=false (вкл/выкл режим отладки)
+
+ALLOWED_HOSTS=.localhost,127.0.0.1,[::1],свойсайт1
 ```
 
 ### Запуск
