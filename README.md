@@ -14,12 +14,7 @@ pip install -r requirements.txt
 ### Переменные окружения
 - Создайте файл .env со следующими переменными:
 ```
-ENGINE=база данных
-HOST=адрес расположения бд
-PORT=порт
-NAME=название бд
-USER=имя пользователя
-PASSWORD=пароль
+DB_URL=postgres://USER:PASSWORD@HOST:PORT/NAME
 
 SECRET_KEY=секретный ключ сайта
 
